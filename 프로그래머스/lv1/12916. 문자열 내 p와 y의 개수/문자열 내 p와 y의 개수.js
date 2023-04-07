@@ -1,15 +1,14 @@
+
 function solution(s){
-    let p = /p/gi
-    let y = /y/gi
-    let array1 = s.match(p)
-    let array2 = s.match(y)
-    if(!array1 && !array2){
+    let s2 = s.toUpperCase();
+    let p의개수 = s2.split("P").length - 1
+    let y의개수 = s2.split("Y").length - 1
+
+    if(p의개수 === y의개수){
         return true
-    }else if(!array1 || !array2){
+    } else if(p의개수 !== y의개수){
         return false
-    }else if(array1.length === array2.length){
+    } else {
         return true
-    }else{
-        return false
     }
 }
