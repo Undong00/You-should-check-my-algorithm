@@ -19,5 +19,5 @@ function solution(s) {
     return resultBox.join(" ")
     // return resultBox.reduce((prev, curv)=> {
     //     `${prev}, ${curv}`
-    // })
+    // })  // 정규 표현식 
 }
