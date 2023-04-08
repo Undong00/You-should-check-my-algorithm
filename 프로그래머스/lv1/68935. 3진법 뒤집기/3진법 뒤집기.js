@@ -15,3 +15,9 @@ function solution(n) {
     }
     return nBox.reverse().reduce((prev, curv, idx)=> prev + 3**idx*curv , 0)
 }
+
+
+
+// const solution = (n) => {
+//     return parseInt([...n.toString(3)].reverse().join(""), 3);
+// }
