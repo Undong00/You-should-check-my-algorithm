@@ -7,5 +7,5 @@ function solution(participant, completion) {
             return participant[i];
         }
     }
-    return participant[participant.length - 1];
+    return participant[participant.length];
 }
